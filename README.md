@@ -22,9 +22,9 @@ But these processes should work as outlined in their respective specifications.
 3. Display an error dialog if a download is in error. 
 4. Output a download log, containing timestamps and names of all downloaded files
 
-Server.py discovers all online users. The content reference is able to keep up to 10 users’ contents, with each having up to 10 chunks, with each chunk carried by at most all other users. P2P Downloader downloads a file from any online user, with no perceivable delay. Any unspecified configuration is a plus – displaying download progress, displaying an error message when file chunks can’t be downloaded from peers.
+Server.py discovers all online users. The content reference can keep up to 10 users’ contents, with each having up to 10 chunks, with each chunk carried by at most all other users. P2P Downloader downloads a file from any online user, with no perceivable delay. Any unspecified configuration is a plus – displaying download progress, displaying an error message when file chunks can’t be downloaded from peers.
 
-Once the file is ready, the P2P Downloader informs the user through the terminal that the file has been successfully downloaded. Downloaded files can be found on Desktop (or Download file). P2P Server.py served filenames in a Server log (a text file - log.txt) under the same list. Each entry specify timestamp, sent to IP address, sent chunk name. Later a TCP session is closed, P2P Server and P2P Downloader continue; the service will not stop.
+Once the file is ready, the P2P Downloader informs the user through the terminal that the file has been successfully downloaded. Downloaded files can be found on Desktop (or Download file). P2P Server.py served filenames in a Server log (a text file - log.txt) under the same list. Each entry specifies timestamp, sent to IP address, sent chunk name. Later a TCP session is closed, P2P Server and P2P Downloader continue; the service will not stop.
 
 
 ```
