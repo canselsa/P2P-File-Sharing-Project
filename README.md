@@ -27,7 +27,7 @@ Server.py discovers all online users. The content reference is able to keep up t
 Once the file is ready, the P2P Downloader informs the user through the terminal that the file has been successfully downloaded. Downloaded files can be found on Desktop (or Download file). P2P Server.py served filenames in a Server log (a text file - log.txt) under the same list. Each entry specify timestamp, sent to IP address, sent chunk name. Later a TCP session is closed, P2P Server and P2P Downloader continue; the service will not stop.
 
 
-````
+```
 # How to Run
 1. Setup Server
 Run "server.py" directly. "Ctrl + C" to shutting down the server.
@@ -42,5 +42,6 @@ Y - Yes
 N - No
 
 
-If you want to download the file "Press Enter for file download". When the downloading ends you can find the Downloaded file in your Documents.
+If you want to download the file "Press Enter for file download". 
+When the downloading ends you can find the Downloaded file in your Documents.
 ```
